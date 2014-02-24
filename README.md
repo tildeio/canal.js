@@ -5,7 +5,7 @@ which are objects that represent a stream of events.
 
 In the same way that [RSVP.js](https://github.com/tildeio/rsvp.js) is a
 compact implementation of Promises/A+ that other library authors can use
-to in their promise-based APIs, we intend library authors to use
+in their promise-based APIs, we intend library authors to use
 Canal.js for the building blocks of their channel-based APIs. Hopefully,
 this will allow for easy composition between channels created by
 different libraries.

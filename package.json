@@ -1,0 +1,42 @@
+{
+  "name": "canal.js",
+  "version": "0.0.1",
+  "description": "Canal.js is a lightweight JavaScript library for creating channels, which are objects that represent a stream of events.",
+  "main": "dist/commonjs/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-browserify": "~1.2.12",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-es6-module-transpiler": "~0.6.0",
+    "grunt-mocha-phantomjs": "~0.3.2",
+    "grunt-mocha-test": "~0.5.0",
+    "grunt-s3": "~0.2.0-alpha.2",
+    "jshint": "~2.4.2",
+    "load-grunt-config": "~0.5.0",
+    "load-grunt-tasks": "~0.2.0",
+    "mocha-phantomjs": "~3.1.6",
+    "connect-redirection": "0.0.1",
+    "grunt-contrib-yuidoc": "~0.5.0",
+    "grunt-release-it": "0.0.3"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "lint": "jshint lib",
+    "prepublish": "grunt build"
+  },
+  "keywords": [
+    "channels",
+    "streams"
+  ],
+  "contributors": ["Yehuda Katz <wycats@gmail.com>", "Tom Dale <tom@tomdale.net>"],
+  "license": "MIT"
+}

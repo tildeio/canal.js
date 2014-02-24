@@ -1,0 +1,13 @@
+{
+  "name": "canal.js",
+  "description": "Canal.js is a lightweight JavaScript library for creating channels, which are objects that represent a stream of events.",
+  "keywords": [
+    "channels",
+    "streams"
+  ],
+  "version": "0.0.1",
+  "scripts": [
+    "main.js"
+  ],
+  "repo": "tildeio/canal.js"
+}
